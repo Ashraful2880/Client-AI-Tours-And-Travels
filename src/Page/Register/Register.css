@@ -1,0 +1,16 @@
+.reg-input:focus {
+    outline: 0;
+}
+
+.reg-area,
+.reg-text {
+    box-shadow: 10px 10px 30px rgb(207, 207, 207);
+}
+
+.sign-btn {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+.offer-image {
+    transition: ease-in-out 0.3s
+}
+
+.offer-image:hover {
+    transform: scale(1.04);
+}
+
+.price-btn {
+    font-weight: 500;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}

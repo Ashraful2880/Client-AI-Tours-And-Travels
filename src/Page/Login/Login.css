@@ -1,0 +1,8 @@
+.login-design,
+.login-text {
+    box-shadow: 10px 10px 30px rgb(180, 180, 180);
+}
+
+.login-input:focus {
+    outline: 0;
+}

@@ -1,0 +1,7 @@
+.book-img {
+    transition: ease-in-out 0.4s;
+}
+
+.book-img:hover {
+    transform: scale(1.03);
+}

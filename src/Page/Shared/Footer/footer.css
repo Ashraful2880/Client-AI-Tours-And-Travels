@@ -1,0 +1,13 @@
+.social-area i {
+    padding: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+.social-area i:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.footer-container {
+    background-color: rgba(0, 0, 0, 0.822);
+}
