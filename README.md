@@ -13,7 +13,7 @@
 * React JS.
 * React Router.
 * CSS Framework-Bootstrap.
-* Deployed On Firebase.
+* Deployed On Netlify.
 * firebase Authentication.
 
 ### Back-End Technology:
