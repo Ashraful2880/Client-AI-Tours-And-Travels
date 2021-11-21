@@ -27,5 +27,6 @@
 * Users Can Registration With Email & Password.
 * Users Can Also Log in With Google & github Sign In.
 * User Can Log Out.
+* User Can Add Order.
 * Responsive With Mobile,Tablet & Laptop.
 
