@@ -1,6 +1,6 @@
 # Client-AI-Tours-&-Travels.
 ### Live Website Link:https://ai-tours-and-travels.netlify.app/home
-### Server Side Code Link:https://github.com/Ashraful2880/Server-AI-Tours-Travels/tree/main
+### Server Side Code Link:https://github.com/Ashraful2880/Server-AI-Tours-And-Travels
 
 ### About This Project.
 
