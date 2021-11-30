@@ -25,8 +25,8 @@
 ### Features.
 
 * Users Can Registration With Email & Password.
-* Users Can Also Log in With Google & github Sign In.
+* Users Can Also Sign in with Google & github.
 * User Can Log Out.
-* User Can Add Order.
+* User Can Add Order, cancel & Offer a order.
 * Responsive With Mobile,Tablet & Laptop.
 
