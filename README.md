@@ -4,9 +4,9 @@
 
 ### About This Project.
 
-**Name-AI-Tours-&-Travels**
+**Name: AI-Tours-&-Travels**
 
-**Type-Full Stack Tours & Travels Website**
+**Type: Full Stack Tours & Travels Website**
 
 ### Front-End Technology:
 
@@ -14,19 +14,21 @@
 * React Router.
 * CSS Framework-Bootstrap.
 * Deployed On Netlify.
-* firebase Authentication.
+* Firebase Authentication.
 
 ### Back-End Technology:
 
 * Node JS.
 * Express JS.
 * Mongo DB
+* Deployed On Heroku.
 
 ### Features.
 
-* Users Can Registration With Email & Password.
+* Users Can Register With Email.
+* Users Can login with email And Password.
 * Users Can Also Sign in with Google & github.
-* User Can Log Out.
-* User Can Add Order, cancel & Offer a order.
+* User Can Log Out By One Click.
+* User Can Add Order, cancel order & Offer a order.
 * Responsive With Mobile,Tablet & Laptop.
 
