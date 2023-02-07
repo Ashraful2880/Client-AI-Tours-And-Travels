@@ -14,7 +14,7 @@ const PlaceOrder = () => {
         fetch(`${process.env.REACT_APP_API_PATH}/booking/${bookId}`)
         .then(res=>res.json())
         .then(data=>setBooking(data))
-    },[]);
+    },[bookId]);
 
     //<------------ Send Data & Email To Database ------------->
 

@@ -4,7 +4,7 @@ import './AddOrder.css';
 import serviceimg from '../../Image/success-bg.jpg';
 
 const AddOrder = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit} = useForm();
 
     const onSubmit = data => {
         fetch(`${process.env.REACT_APP_API_PATH}/addorder`,{

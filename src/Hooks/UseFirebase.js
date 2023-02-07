@@ -113,7 +113,7 @@ const useFirebase=()=>{
           setIsLoading(false);
       });
       return ()=>unsubscribed;
-  },[])
+  },[auth])
 
 return{handleEmail,handleName,handlePassword,handleRegister,error,user,handleSignIn,handleSignOut,googleSignIn,gitHubSignIn,setError,isloading}
 }
