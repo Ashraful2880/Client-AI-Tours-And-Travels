@@ -8,7 +8,7 @@ const MyOrder = () => {
     const [orders,setOrders]=useState([])
     
     useEffect(()=>{
-        const url=`https://obscure-ridge-31160.herokuapp.com/myOrders/${user.email}`;
+        const url=`${process.env.REACT_APP_API_PATH}/myOrders/${user.email}`;
         fetch(url)
         .then(res=>res.json())
         .then(data=>setOrders(data))

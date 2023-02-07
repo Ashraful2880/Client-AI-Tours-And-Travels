@@ -4,7 +4,7 @@ import Offer from '../Offer/Offer';
 const Offers = () => {
     const [offers,setOffers]=useState([]);
     useEffect(()=>{
-        fetch('https://obscure-ridge-31160.herokuapp.com/offers')
+        fetch(`${process.env.REACT_APP_API_PATH}/offers`)
         .then(res=>res.json())
         .then(data=>setOffers(data))
     },[])

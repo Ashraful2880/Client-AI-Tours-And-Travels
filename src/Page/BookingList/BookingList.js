@@ -10,7 +10,7 @@ const BookingList = ({order}) => {
     const handleDelete=(id)=>{
         const proceed=window.confirm("Are You Sure ? Want To Delete ?");
         if (proceed){
-            const url=`https://obscure-ridge-31160.herokuapp.com/deleteService/${id}`;
+            const url=`${process.env.REACT_APP_API_PATH}/deleteService/${id}`;
             fetch(url,{
                 method:'DELETE'
             })

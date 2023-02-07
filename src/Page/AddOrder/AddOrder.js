@@ -7,7 +7,7 @@ const AddOrder = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
 
     const onSubmit = data => {
-        fetch('https://obscure-ridge-31160.herokuapp.com/addorder',{
+        fetch(`${process.env.REACT_APP_API_PATH}/addorder`,{
             method:"POST",
             headers:{
                 'content-type':'application/json'

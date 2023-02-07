@@ -11,7 +11,7 @@ const PlaceOrder = () => {
     // Load Single Data <--------------------->
 
     useEffect(()=>{
-        fetch(`https://obscure-ridge-31160.herokuapp.com/booking/${bookId}`)
+        fetch(`${process.env.REACT_APP_API_PATH}/booking/${bookId}`)
         .then(res=>res.json())
         .then(data=>setBooking(data))
     },[]);
@@ -39,7 +39,7 @@ const PlaceOrder = () => {
         const newData={...booking,...userInfo};
         delete newData._id;
 
-        fetch('https://obscure-ridge-31160.herokuapp.com/manageOrders',{
+        fetch(`${process.env.REACT_APP_API_PATH}/manageOrders`,{
             method:"POST",
             headers:{
                 'content-type':'application/json'

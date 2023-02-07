@@ -4,7 +4,7 @@ import ManageOrder from '../ManageOrder/ManageOrder';
 const ManageOrders = () => {
     const [booking,setBooking]=useState([]);
     useEffect(()=>{
-        fetch('https://obscure-ridge-31160.herokuapp.com/manageOrders')
+        fetch(`${process.env.REACT_APP_API_PATH}/manageOrders`)
         .then(res=>res.json())
         .then(data=>setBooking(data))
     },[])   
